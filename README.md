@@ -1,17 +1,97 @@
-# Tekla Part Checker
+---
 
-A Windows Forms tool for checking Tekla Structures models for part clashes and drawing metadata issues.
+# 🔧 Tekla Part Checker
 
-## Features
-- Detects intersecting (clashing) parts
-- Checks for empty part names
-- Audits drawing "Drawn By" metadata
+**Tekla Part Checker** is a Windows Forms utility built using the Tekla Structures API. It helps you automatically detect and report issues in your Tekla models and drawings — including broken parts, clashes, and incomplete drawing metadata.
 
-## How to Run
-Open in Visual Studio and build the project. Run the application from the compiled executable or debug mode.
+---
 
-## License
-MIT (or your selected license)
+## ✨ Features
 
-## Contributing
-Pull requests are welcome. Please submit issues for bugs or feature requests.
+- 🧱 **Part Checks** – Detects missing names, materials, profiles, and even intersecting (clipping) parts.
+- 📐 **Drawing Checks** – Finds drawings with an empty `"Drawn By"` field.
+- 📊 **Log Output** – Results displayed in-app and saved to log files.
+- 🖼️ **Animated Splash Screen** – Orange progress bar, dark theme, and custom FiraMono Nerd Font.
+- 🪟 **Responsive UI** – Resizable, centered buttons, with version info in top-right corner.
+
+---
+
+## 📷 Screenshots
+
+> *(You can drag and drop images here after uploading to GitHub)*
+
+---
+
+## 🛠 Requirements
+
+- Tekla Structures (recommended version 2022+)
+- .NET Framework 4.7.2
+- Visual Studio 2019 or newer
+- Tekla OpenAPI references (from your Tekla installation)
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository and open the solution in Visual Studio:
+
+git clone https://github.com/HoldFort-Bananza/TeklaPartChecker.git
+
+1. Open `TeklaPartChecker.sln`
+2. Make sure Tekla references resolve (you may need to re-add them based on your Tekla install path)
+3. Build and run!
+
+---
+
+## 📦 Releases
+
+Download compiled versions from the [Releases](https://github.com/HoldFort-Bananza/TeklaPartChecker/releases) page.
+
+---
+
+## 🧠 Contributing
+
+Contributions are welcome! 🎉
+You can submit feature requests, bug reports, or fork the repo and open a pull request.
+
+### 📌 Guidelines
+
+* Keep your forked/modified versions **open-source**
+* Credit the original project in derived works
+* Use clear commit messages and comments
+* Keep contributions focused and relevant
+
+### 🛠 How to Contribute
+
+1. Fork this repository
+2. Create a new branch for your changes
+3. Commit your updates
+4. Submit a pull request with a brief explanation
+
+---
+
+## 📜 License
+
+This project is licensed under the **GNU AGPL v3.0**.
+You're free to use, share, and modify the project — but any changes or distributed versions **must remain open-source** and give credit to the original author.
+
+📄 See [`LICENSE`](LICENSE) for full details.
+
+---
+
+## 👤 Author
+
+**HoldFort-Bananza**
+GitHub: [@HoldFort-Bananza](https://github.com/HoldFort-Bananza)
+
+---
+
+✅ You can copy-paste this directly into your `README.md` on GitHub.
+
+Would you also like me to generate:
+- A matching `LICENSE` file for AGPL v3?
+- A `CONTRIBUTING.md` file?
+- A description for the GitHub repo sidebar?
+
+Let me know and I’ll drop them in.
+```
