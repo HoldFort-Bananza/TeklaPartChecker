@@ -86,12 +86,3 @@ GitHub: [@HoldFort-Bananza](https://github.com/HoldFort-Bananza)
 
 ---
 
-✅ You can copy-paste this directly into your `README.md` on GitHub.
-
-Would you also like me to generate:
-- A matching `LICENSE` file for AGPL v3?
-- A `CONTRIBUTING.md` file?
-- A description for the GitHub repo sidebar?
-
-Let me know and I’ll drop them in.
-```
