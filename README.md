@@ -1,6 +1,6 @@
 ---
 
-# 🔧 Tekla Part Checker
+## 🔧 Tekla Part Checker
 
 **Tekla Part Checker** is a Windows Forms utility built using the Tekla Structures API. It helps you automatically detect and report issues in your Tekla models and drawings — including broken parts, clashes, and incomplete drawing metadata.
 
